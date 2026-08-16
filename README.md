@@ -58,7 +58,7 @@ cd quattro-plymouth
 ```bash
 # Install 
 sudo cp -r omarchy-anim /usr/share/plymouth/themes/
-
+```
 
 ### 3. Set as Default Theme
 ```bash
@@ -69,7 +69,7 @@ sudo plymouth-set-default-theme -R omarchy-anim
 
 Depending on your Linux distribution:
 
-- **Arch Linux / Manjaro**:
+- **Arch Linux / Omarchy **:
   ```bash
   sudo mkinitcpio -P or sudo limine-update
   ```
