@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/quattro-plymouth-demo
 
 ## 📦 Requirements
 
-- **Linux** (Arch Linux, Ubuntu, Debian, Fedora, openSUSE, etc.)
+- **Linux** (Arch Linux with Omarchy ofc)
 - **Plymouth** (`plymouth` and `plymouth-x11` for testing)
 
 ---
