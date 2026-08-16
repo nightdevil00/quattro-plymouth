@@ -78,41 +78,6 @@ Depending on your Linux distribution:
   ```
   *(Ensure `plymouth` is added to the `HOOKS` array in `/etc/mkinitcpio.conf` after `base` and `udev`)*
 
-- **Ubuntu / Debian / Linux Mint**:
-  ```bash
-  sudo update-initramfs -u
-  ```
-
-- **Fedora / RHEL / AlmaLinux**:
-  ```bash
-  sudo dracut -f
-  ```
-
-- **openSUSE**:
-  ```bash
-  sudo dracut --regenerate-all --force
-  ```
-
----
-
-## 🧪 Testing Without Rebooting
-
-You can test the splash screen in an X11/Wayland window using `plymouth-x11`:
-
-### Test Standard Boot Splash:
-```bash
-sudo plymouthd ; sudo plymouth --show-splash ; sleep 5 ; sudo plymouth --quit
-```
-
-### Test LUKS Password Prompt:
-```bash
-sudo plymouthd
-sudo plymouth --show-splash
-sudo plymouth ask-for-password --prompt "Passphrase:"
-sudo plymouth --quit
-```
-
----
 
 ## ⚙️ Customization
 
@@ -121,6 +86,7 @@ You can edit `/usr/share/plymouth/themes/omarchy-anim/omarchy-anim.script` to ad
 - **Font & Size**: Modify `MonospaceFont` and `Font` in `omarchy-anim.plymouth`.
 - **Animation Speed / Framing**: Adjust frame rate logic in `refresh_callback()`.
 
+DISCLAIMER : I've only tested on non-encrypted drive
 ---
 
 ## 📄 License
