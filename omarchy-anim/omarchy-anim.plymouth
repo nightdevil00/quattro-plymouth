@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=Omarchy Animation
+Description=Omarchy boot animation from video frames
+ModuleName=script
+ImageDir=/home/mihai/bootscreen/omarchy-anim
+ScriptFile=/home/mihai/bootscreen/omarchy-anim/omarchy-anim.script
+ConsoleLogBackgroundColor=0x1a1b26
+MonospaceFont=Cantarell 11
+Font=Cantarell 11
