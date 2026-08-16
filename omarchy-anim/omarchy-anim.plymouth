@@ -1,7 +1,9 @@
 [Plymouth Theme]
 Name=Omarchy Animation
-Description=Omarchy boot animation from video frames
+Description=Omarchy boot animation with flying car
 ModuleName=script
+
+[script]
 ImageDir=/usr/share/plymouth/themes/omarchy-anim
 ScriptFile=/usr/share/plymouth/themes/omarchy-anim/omarchy-anim.script
 ConsoleLogBackgroundColor=0x1a1b26
