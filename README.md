@@ -71,7 +71,7 @@ Depending on your Linux distribution:
 
 - **Arch Linux / Manjaro**:
   ```bash
-  sudo mkinitcpio -P
+  sudo mkinitcpio -P or sudo limine-update
   ```
   *(Ensure `plymouth` is added to the `HOOKS` array in `/etc/mkinitcpio.conf` after `base` and `udev`)*
 
