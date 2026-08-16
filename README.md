@@ -56,12 +56,9 @@ cd quattro-plymouth
 
 ### 2. Copy the Theme to Plymouth Directory
 ```bash
-# Install the animated version (recommended)
+# Install 
 sudo cp -r omarchy-anim /usr/share/plymouth/themes/
 
-# (Optional) Install the progress bar version
-sudo cp -r . /usr/share/plymouth/themes/omarchy
-```
 
 ### 3. Set as Default Theme
 ```bash
